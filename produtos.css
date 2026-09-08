@@ -28,9 +28,15 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
+    padding: 50px 0;
 }
 
 .produtos li {
@@ -38,9 +44,15 @@ nav a {
     text-align: center;
     width: 30%;
     vertical-align: top;
-    background-color: #cccccc;
     margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: solid 2px #000000;
+    border-radius: 10px;
+}
 
+.produtos li:hover {
+    border-color: #c78c19;
 }
 
 .produtos h2 {
@@ -55,4 +67,5 @@ nav a {
 .preco {
     font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
 }
